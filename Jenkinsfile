@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Build App') {
       steps {
-          withDotNet{
+          withDotNet([sdk: 'SDK-6.0']){
               Builddotnet()
           }
       }
