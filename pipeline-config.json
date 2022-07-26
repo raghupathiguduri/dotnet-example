@@ -5,6 +5,6 @@
   "Containerization":"true",
   "registry": "registry-demo.kaiburr.com",
   "repo": "registry-demo.kaiburr.com/sample",
-  "imageName": "dotnet"
+  "imageName": "dotnet",
   "publish": "true"
 }
