@@ -11,7 +11,9 @@ pipeline {
     }
     stage('Build App') {
       steps {
-        Builddotnet()
+          withDotNet{
+              Builddotnet()
+          }
       }
     }
     stage('Docker Build') {
