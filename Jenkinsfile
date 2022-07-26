@@ -6,13 +6,13 @@ pipeline {
 
 			stage('Build') {
 				steps {
-                    dotnetBuild("test")	
+                    Builddotnet("test")	
 			}
 		}
 		
 			stage ('Publish'){
 				steps {
-					dotnetBuild("publish")
+					Builddotnet("publish")
 				}
 			}
       
