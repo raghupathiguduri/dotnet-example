@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet:sdk AS build-env
+FROM mcr.microsoft.com/dotnet/sdk AS build-env
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
