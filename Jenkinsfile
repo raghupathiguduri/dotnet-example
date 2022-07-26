@@ -2,9 +2,6 @@
 pipeline {
 
     agent any
-    tools {
-        dotnet 'dotnet'
-    }
 		stages {
 
 			stage('Build') {
